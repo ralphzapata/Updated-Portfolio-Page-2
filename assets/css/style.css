@@ -1,0 +1,154 @@
+.d-flex  {
+    padding-bottom: 10px;
+}
+
+#about-me {
+    font-style: bold;
+    color: black;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.title {
+    font-size: larger;
+    color: #fff;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Patua+One');
+
+* {
+    color:black;
+    font-style: unset;
+    font-size: 18px;
+
+}
+
+html, body {
+    background: #f8b332;
+ 
+    background: -webkit-linear-gradient(to left,#f8b332);
+
+    background: linear-gradient(to left, #f8b332);
+ 
+    height: 100%;
+}
+
+h1 {
+    font-family: "Patua One", sans-serif;
+    color: black;
+}
+
+
+.navbar-dark .navbar-brand {
+    font-size: 2em;
+    font-family: "Pacifico", serif;
+    color: white;
+}
+
+.container {
+    margin-top: 45px;
+    margin-bottom: 65px;
+}
+
+img {
+    width: 330px;
+    height: 180px;
+}
+
+.square_image {
+    width: 225px;
+    height: 210px;
+    border-radius: 100%;
+}
+
+.paragraph {
+    font-size: 1.2em;
+    margin-top: 10px;
+    line-height: 1.6em;
+}
+
+.container-grid {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.contact-form {
+    width: 80%;
+}
+
+.port-cards {
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    background-color: orangered;
+    
+}
+
+.card-header {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000066;
+}
+
+i.fab,
+i.fas,
+a {
+    color: black;
+    font-size: 15px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper > h1 {
+    padding: 20px;
+    margin: 40px;
+    font-size: 2.5rem;
+}
+
+.wrapper > p {
+    font-size: 1.5rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+
+.share > button {
+    background-color: #f85032;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 130px;
+}
+
+.share > button > a {
+    color: #fff;
+}
+
+i.fa-envelope:before {
+    color: #fff;
+}
+
+i.fa-linkedin:before {
+    color: white;
+}
+
+i.fa-github:before {
+    color: white;
+}
